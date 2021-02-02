@@ -21,7 +21,7 @@ jobs:
     - name: Lint with flake8
       run: flake8 --ignore=E501,F403,F405,F401 ./tests/ ./api/migrations/
 
-    -name: Test with pytest
+    # -name: Test with pytest
       # env:
       #   SECRET_KEY: ${{ secrets.SECRET_KEY }}
       #   DB_ENGINE: ${{ secrets.DB_ENGINE }}
