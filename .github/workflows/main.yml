@@ -19,7 +19,7 @@ jobs:
         pip install -r requirements.txt
     
     - name: Lint with flake8
-      run: flake8 --ignore=E501,F403,F405,F401 ./tests/ ./api/migrations/
+      run: flake8 --ignore=E501,F403,F405,F401 ./tests/
 
     # -name: Test with pytest
       # env:
