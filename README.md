@@ -29,7 +29,9 @@ python manage.py dumpdata > fixtures.json
 * [Django](https://www.djangoproject.com/) - The web framework used
 * [Python](https://www.python.org/) - programming language
 * [PosgreSQL](https://www.postgresql.org/) - object-relational database management system
+* [GitHub Actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) - about yaml syntax for workflows
 
 ## Authors
 
 * **Виталий Алексанов** - *Initial work* - [KucJloTa](https://github.com/KucJloTa)
+![yamdb_workflow](https://github.com/KucJloTa/yamdb_final/workflows/yamdb_workflow/badge.svg?branch=master)
