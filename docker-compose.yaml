@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: kucjlota/api_yamdb:v1
+    image: kucjlota/api_yamdb:v1
     volumes:
       - staticfiles:/code/static
     restart: always
