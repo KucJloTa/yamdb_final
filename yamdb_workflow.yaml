@@ -66,6 +66,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            cd ~/app/
             sudo docker stop $(sudo docker ps -aq)
             sudo docker-compose up
   
